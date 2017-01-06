@@ -10,8 +10,8 @@
 		C257311F1E1F877F009DB626 /* FastlaneDemo1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25731151E1F877F009DB626 /* FastlaneDemo1.framework */; };
 		C25731241E1F877F009DB626 /* FastlaneDemo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25731231E1F877F009DB626 /* FastlaneDemo1Tests.swift */; };
 		C25731261E1F877F009DB626 /* FastlaneDemo1.h in Headers */ = {isa = PBXBuildFile; fileRef = C25731181E1F877F009DB626 /* FastlaneDemo1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C25731301E1F8796009DB626 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C257312F1E1F8796009DB626 /* User.swift */; };
 		C25731321E1F8831009DB626 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25731311E1F8831009DB626 /* UserTests.swift */; };
+		C25731381E1F9860009DB626 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25731371E1F9860009DB626 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,8 @@
 		C257311E1E1F877F009DB626 /* FastlaneDemo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneDemo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25731231E1F877F009DB626 /* FastlaneDemo1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneDemo1Tests.swift; sourceTree = "<group>"; };
 		C25731251E1F877F009DB626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C257312F1E1F8796009DB626 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		C25731311E1F8831009DB626 /* UserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		C25731371E1F9860009DB626 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		C25731171E1F877F009DB626 /* FastlaneDemo1 */ = {
 			isa = PBXGroup;
 			children = (
-				C257312F1E1F8796009DB626 /* User.swift */,
+				C25731371E1F9860009DB626 /* User.swift */,
 				C25731181E1F877F009DB626 /* FastlaneDemo1.h */,
 				C25731191E1F877F009DB626 /* Info.plist */,
 			);
@@ -203,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25731301E1F8796009DB626 /* User.swift in Sources */,
+				C25731381E1F9860009DB626 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +408,7 @@
 				C257312B1E1F877F009DB626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C257312C1E1F877F009DB626 /* Build configuration list for PBXNativeTarget "FastlaneDemo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				C257312E1E1F877F009DB626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
