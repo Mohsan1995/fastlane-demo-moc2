@@ -14,7 +14,7 @@ lane :deploy do
     version = get_version_number()
 
     set_github_release(
-      respository_name: "Mohsan1995/fastlane-demo-moc2",
+      repository_name: "Mohsan1995/fastlane-demo-moc2",
       name: version,
       tag_name: "v#{version}",
       api_token: ENV["GITHUB_TOKEN"],
