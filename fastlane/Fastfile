@@ -19,7 +19,7 @@ lane :deploy do
       tag_name: "v#{version}",
       api_token: ENV["GITHUB_TOKEN"],
       description: changelog_from_git_commits(),
-      commitish: "master"w
+      commitish: "master"
     )
     pod_push()
   end
