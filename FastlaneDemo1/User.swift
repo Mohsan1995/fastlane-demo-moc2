@@ -8,7 +8,7 @@
 
 import Foundation
 
-class User: NSObject{
+open class User: NSObject{
     
     var login: String
     var password: String
@@ -20,7 +20,7 @@ class User: NSObject{
     }
     
     
-    override var description: String{
+    open override var description: String{
         return "User \(self.login) | \(self.password)"
     }
     
